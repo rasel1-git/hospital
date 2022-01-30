@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+width: 100%;
+    align-items: center;
+
+    justify-content: center;
+font-family: 'Raleway', sans-serif;
+}
+a{
+    font-size: 18px;
+    
+}
+p{
+    font-size: 16px;
+}
+.header p{
+    color: #396CF0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+.header h1{
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    border-bottom: 15px;
+}
+/*======navbar style=====*/
+.nav-item a{
+    font-weight: 500;
+    padding: 5px 15px;
+}
+/*======navbar style=====*/
+/*slider*/
+/*
+#carouselExampleCaptions{
+    overflow: hidden;
+    display: flex;
+}
+#carouselExampleCaptions .carousel-item img{
+    position: relative;
+}
+#carouselExampleCaptions .carousel-item .secend{
+    background-image: url(image/slider_2-1536x560.jpg);
+}
+#carouselExampleCaptions .carousel-item .tird{
+    background-image: url(image/slider_3-1536x560.jpg);
+}
+#carouselExampleCaptions .carousel-item{
+    height: 100vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item{
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+    
+    
+    
+    
+}
+.carousel-caption{
+    background: #000;
+    padding: 40px;
+    color: #fff;
+    position: absolute;
+}
+*/
+/*slider*/
+
+/*====About style====*/
+.about-design .box{
+    cursor: pointer;
+}
+.about-design i{
+    padding: 0px 10px;
+    font-size: 20px
+    
+}
+/*====About style====*/
+/*====services style====*/
+.services-design{
+    background: #F5F8FA;
+}
+.services-design .box{
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 40px 45px;
+    position: relative;
+    box-shadow: 0 1px 0 0 rgb(227 227 227 / 75%);
+    border-radius: 8px;
+    transition: all 0.3s ease-out;
+}
+.box img{
+        position: relative;
+    margin-bottom: 25px;
+}
+.box h2{
+        font-size: 22px;
+    margin-bottom: 15px;
+}
+.box p{
+    font-weight: 400;
+        margin-bottom: 15px;
+}
+.services-design .box:hover{
+    box-shadow: 0 10px 55px 5px rgb(137 173 255 / 20%);
+    border: 1px solid rgba(168, 168, 242, 0.76);
+    transition: all 0.3s ease-out;;
+}
+.services-design .box img:hover{
+    animation: toTopFromBottom 0.5s forwards;
+}
+
+
+/*====services style====*/
+
+/*=====-Specuiality Style-====*/
+.specuiality-design{
+    height: 100%;
+    background: #122738;
+    color: #fff;
+    font-weight: 600;
+}
+.spec-nav{
+    background: none;
+}
+.specuiality-design i{
+    color: blue;
+    margin-right: 10px;
+    
+}
+/*=====-Specuiality Style-====*/
+
+
+/*====doctor section style====*/
+.Doctor-design{
+    background: #F6F7F9;
+
+}
+.doctor-box{
+        margin-bottom: 30px;
+    cursor: pointer;
+}
+.doctor-box:hover{
+    box-shadow: 0 10px 55px 5px rgb(137 173 255 / 20%);
+  
+    transition: all 0.5s ease-out;;
+}
+.doctor-box img{
+    max-width: 100%;
+    max-height: 250px;
+        position: relative;
+    background-color: #f1f7fa;
+    border-radius: 50%;
+    margin: 0 auto 23px;
+}
+.doctor-box img:hover{
+     -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    transition: all .5s;
+}
+.d-content{
+        margin-bottom: 20px;
+    position: relative;
+}
+.d-content p{
+    color: #646464;
+    margin-bottom: 0; 
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+.socail-doc{
+    margin-bottom: 15px;
+        
+}
+.socail-doc a i{
+    margin: 0 10px;
+    font-weight: 400;
+        color: #646464;
+}
+.socail-doc a i:hover{
+    color: blueviolet;
+}
+/*====doctor section style====*/
+
+/*====appointment Style====*/
+.appointment-design{
+    color: #fff;
+    background-image: url(image/c3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.appointment-design p{
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.appointment-design h1{
+    letter-spacing: 1.5px;
+    line-height: 2;
+    border-bottom: 15px;
+}
+/*====appointment Style====*/
+
+/*===Working Style====*/
+.working-design{
+    background: #F6F7F9;
+}
+.w-imgbox img{
+    max-width: 100%;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
+
+}
+.work-box{
+    cursor: pointer;
+    padding: 25px 0;
+}
+.w-imgbox img:hover{
+    background-color: #396cf0;
+    padding: 3px;
+}
+.w-content h2{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.w-content h2:hover{
+    color: blueviolet;
+}
+.w-content p{
+    margin: 10px;
+    font-weight: 500;
+    
+}
+    
+/*===Working Style====*/
+
+/*====blog style====*/
+.blog-design .card-title{
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+}
+.blog-design .card-text{
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+    color: #646464;
+}
+.blog-design img:hover{
+    max-width: 100%;
+    -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    transition: all .5s;
+}
+.card-fot a{
+    text-decoration: none;
+    color: #0505e3;
+}
+.card-fot span{
+    margin-right: 10px;
+    padding: 0 10px;
+    float: right;
+    color: #D4D4D4;
+}
+.card-fot span:hover{
+    color: blue;
+    
+}
+/*====blog style====*/
+
+/*==== footer section =====*/
+.footer-design{
+    background: #111111;
+    color: #fff;
+}
+.footer-design p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    
+}
+.footer-design p a, .footer-design a{
+    color: #fff;
+}
+.footer-design p a i, .footer-design p i{
+    margin-right: 10px
+}
+.footer-design p a:hover{
+    color: blue;
+}
+.footer-design h3{
+    border-bottom: 1px solid #fff;
+    
+}
+.contact-block{
+    background: #2A2A2A;
+}
+.contact-block a i{
+    padding: 5px 10px;
+}
+.contact-block a i:hover{
+    color: blue;
+}
+.sub-box{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+.sub-box .form-control{
+    padding: 0.75rem 2.5rem;
+    border: none;
+    box-shadow: none;
+    border-radius: 30px 0 0 30px;
+    background: #fff;
+    font-size: 15px;
+    color: #000;
+    height: 50px;
+}
+.input-group-addon{
+    padding: 0;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    background: #396cf0!important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+.input-group-addon input {
+    border-radius: 0 30px 30px 0;
+    padding: 15px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.copyright{
+       background-color: #1f1f1f;
+    min-height: 70px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #7c7c7c;
+    text-align: center;
+}
+/*
+.sub-box input{
+    padding: 10px;
+    border: none;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.sub-box button{
+   
+     padding: 10px;
+    border: none;
+   
+}
+*/
+/*==== footer section =====*/
+
+
+
+
+/*===========.....About page css....================*/
+
+.breadcumb-ab{
+    background: url(image/About/breadcumb.jpg) no-repeat center center / cover;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background: rgb(73 136 255 / 73%);
+}
+.titel h1{
+    margin: 15px;
+    
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 45px;
+}
+.breadcrumb a, .breadcrumb .breadcrumb-item{
+    
+    color: #fff;
+    margin: 0px 5px;
+    font-size: 20px;
+    padding-top: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 45px;
+}
+.discription h1{
+    font-weight: 700;
+}
+.discription p i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: blueviolet;
+}
+.achivement{
+    color: #fff;
+    max-height: 100%;
+    padding: 100px 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+   
+}
+.blur{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background: rgb(221 55 5 / 74%);
+}
+.achivement h1{
+    font-size: 70px;
+    line-height: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.achivement p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media (max-width: 1500px)
+@media (max-width: 700px)
+.achivement{
+    font-size: 16px;
+    height:500px;
+}
+
+/*===========.....About page css....================*/
+
+
+/*===========.....Department page css....================*/
+
+
+.breadcumb-dep{
+     background: url(image/department/banner.jpg) no-repeat center center / cover;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.overly-dep{
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background: rgb(73 136 255 / 73%);
+}
+.department {
+    background: #F5F8FA;
+}
+.department .box{
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 40px 45px;
+    position: relative;
+    box-shadow: 0 1px 0 0 rgb(227 227 227 / 75%);
+    border-radius: 8px;
+    transition: all 0.3s ease-out;
+}
+.department .box img{
+    position: relative;
+margin-bottom: 25px;
+}
+.box h2{
+    font-size: 22px;
+margin-bottom: 15px;
+}
+.box p{
+font-weight: 400;
+    margin-bottom: 15px;
+}
+.department  .box:hover{
+    color: #fff;
+    background: #396cf07a;
+box-shadow: 0 10px 55px 5px rgb(137 173 255 / 20%);
+border: 1px solid rgba(168, 168, 242, 0.76);
+transition: all 0.3s ease-out;;
+}
+.department .box img:hover{
+    color: #fff;
+animation: toTopFromBottom 0.5s forwards;
+}
+
+/*===========.....Department page css....================*/
+/*===========.....Blog page css....================*/
+
+.breadcumb-blog{
+     background: url(image/blog/breadcumb5.jpg) no-repeat center center / cover;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.overly-blog{
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background: rgb(73 136 255 / 73%);
+}
+.blog-body .blg-contect p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.blog-body .blg-contect p i{
+    margin-right: 10px;
+}
+.blog-body .blg-contect h1 a{
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+    font-size: 22px;
+    color: #272b2e;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.blog-body .blg-contect h1 a:hover{
+    color: #0505e3;
+}
+.blog-body .blg-contect h1{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 1.5px;
+}
+
+/*===========.....Blog page css....================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
